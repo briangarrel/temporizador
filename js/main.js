@@ -3,7 +3,7 @@ let inputs, clock, alarm, hours, minutes, seconds, repeater;
 window.addEventListener('load', () => {
     inputs = Array.from(document.getElementsByClassName('number'));
     clock = document.querySelector('.clock');
-    alarm = new Audio('/assets/sound/alarm.mp3')
+    alarm = new Audio('assets/sound/alarm.mp3')
 })
 
 function startTimer () {
