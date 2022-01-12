@@ -49,6 +49,7 @@ body {
     padding: 40px;
     border: none;
     border-radius: 50%;
+    background-color: none;
 }
 
 #play {
