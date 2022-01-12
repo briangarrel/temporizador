@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* font-family: ; */
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 32px;
+    text-shadow: -1px 0px 15px rgba(0, 0, 0, 0.25);
+    color: lightgray;
+}
+
+.number {
+    display: inline-block;
+    width: 140px;
+    font-size: 128px;
+    /* font-family: ; */
+    text-align: center;
+    text-shadow: -1px 0px 15px rgba(37, 27, 27, 0.25);
+    border: none;
+    color: lightgray;
+    background: transparent;
+}
+
+.buttons button {
+    margin: 0px 7px;
+    padding: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+#play {
+    background-image: url(/assets/image/outline_play_arrow_black_24dp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#stop {
+    background-image: url(/assets/image/outline_stop_black_24dp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#play:active {
+    background-color: lightgreen;
+}
+
+#stop:active {
+    background-color: lightcoral;
+}
