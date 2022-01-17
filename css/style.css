@@ -52,13 +52,13 @@ body {
 }
 
 #play {
-    background-image: url(/assets/image/play.png);
+    background-image: url(./assets/image/play.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #stop {
-    background-image: url(/assets/image/stop.png);
+    background-image: url(./assets/image/stop.png);
     background-position: center;
     background-repeat: no-repeat;
 }
